@@ -2,9 +2,9 @@
 
     session_start();
 
-    $hostName = "localhost";
-    $userName = "root";
-    $password = "adhnrs26";
+    $hostName = "your_hostname";
+    $userName = "your_username";
+    $password = "your_password";
     $databaseName = "twitter";
     $conn = mysqli_connect($hostName, $userName, $password, $databaseName);
 
